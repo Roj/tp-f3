@@ -74,13 +74,27 @@ Lo cual nos da un error porcentual de $e_r \approx 0,5\%$.
 
 ### Aparición de anillos en el bulbo
 
+Dado que el policristal que se utiliza en el experimento fue molido, 
+la orientación de las estructuras regulares del cristal se vuelve aleatoria, y
+esto le termina dando una simetría de revolución a la dispersión de las ondas de
+los electrones.
 
 ### Ángulo de dispersión
 
    ![Dispersión de las ondas bajo hipótesis de Bragg](cuestionario_e.svg.png)
 
 
-### Minimización del error de medición
+### Minimización del error de medición  
+
+El calibre es un instrumento bastante sencillo con un error de apreciación bajo
+($e_{ap} = 0.1\mathrm{mm}$). Una opción sería medir directamente el espesor de cada
+anillo, pero entonces el error de apreciación será relativamente alto respecto
+al mensurando.    
+
+Una manera mejor es medir los radios internos y externos por separado, para
+medir de manera indirecta el espesor. Si bien el error absoluto se duplicará
+(por propagación lineal, el error de la suma es la suma de los errores),
+relativamente a la magnitud que se mide será mucho menor.
 
 ### Cálculo del $\theta$ sin aproximación
 
