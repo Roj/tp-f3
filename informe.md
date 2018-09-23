@@ -74,6 +74,12 @@ Lo cual nos da un error porcentual de $e_r \approx 0,5\%$.
 
 ### Aparición de anillos en el bulbo
 
+
+### Ángulo de dispersión
+
+   ![Dispersión de las ondas bajo hipótesis de Bragg](cuestionario_e.svg.png)
+
+
 ### Minimización del error de medición
 
 ### Cálculo del $\theta$ sin aproximación
