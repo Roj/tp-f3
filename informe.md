@@ -96,6 +96,22 @@ medir de manera indirecta el espesor. Si bien el error absoluto se duplicará
 (por propagación lineal, el error de la suma es la suma de los errores),
 relativamente a la magnitud que se mide será mucho menor.
 
-### Cálculo del $\theta$ sin aproximación
+### Cálculo del $\theta$ sin aproximación  
+
+En la Figura 2 podemos ver la geometría del dispositivo experimental. Esto nos
+permite ver cómo se relaciona el ángulo de dispersión (y en definitiva el ángulo
+de Bragg) con las dimensiones del bulbo y de los anillos que se observan en la
+pantalla de fósforo.
+
+   ![Geometría del experimento](geometria_experimento.png)
+
+Usando la notación del gráfico, observamos que: 
+
+$$\sin (2\alpha) = \frac{r}{R} \Rightarrow \theta = \frac{1}{4}
+\arcsin\left (\frac{r}{R} \right )$$
+
+Y esto nos da un método sin aproximaciones para calcular el ángulo de Bragg, ya
+que $r$ es lo que medimos (el radio del anillo) y $R$ es conocido (el radio del
+bulbo).
 
 ### Tablas de $\theta$ para distintos $n, v, d$
