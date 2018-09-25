@@ -7,26 +7,96 @@ author:
 - Joaquin Torré Zaffaroni (98314)
 ---
 
+## Resumen
+El trabajo práctico consiste en hacer pasar un haz de electrones, acelerados por un potencial V, a través de un policristal de grafito y observar el diagrama de interferencia que estos producen sobre una pantalla de fósforo, pudiendo así calcular la distancia interplanar del cristal, y la longitud de onda del haz difractado.
+
 ## Introduccion
+La primera persona en proponer que la materia tiene comportamiento tanto ondulatorio como corpuscular fue L de Broglie, en 1924. Sin embargo en esa época no le fue posible conseguir evidencia que apoye su teoría. Así como se sabía que la luz tiene propiedades ondulatorias y corpusculares el conjeturo que quizá la materia también se comportaria similarmente.
+
+Los primeros en observar el fenómeno de difracción fueron Davisson y Germer en los laboratorios de Bell Telephone. Ellos se encontraban estudiando la dispersión de un haz de electrones contra un blanco de níquel. Luego de un largo periodo de bombardeo de electrones notaron sobre la placa receptora máximos y mínimos de intensidad, en función del ángulo y la tensión de aceleración.
+
+IMG 1
+IMG 2
+
+Al notar este fenómeno lo reprodujeron con diferentes monocristales logrando deducir las longitudes de onda de manera trigonométrica, conociendo la tensión de aceleración, la distancia interplanar del cristal y el diámetro de proyección.
+
+EQ1
+EQ2
+
+Donde E y p son la energía y cantidad de movimiento del electrón respectivamente y h la constante de Planck.
+De esta manera demostraron que las partículas de materia presentan características de ondas en determinadas condiciones, confirmando así la hipótesis de De Broglie sobre la dualidad onda-partícula.
+
+
 ## Metodo experimental
+Dispositivo:
+IMG 3
+
+Para llevar a cabo la experiencia se utilizó un bulbo en el cual electrones acelerados mediante un potencial chocan contra un policristal de grafito y son difractados con cierto ángulo.
+
+  
+
+Cada uno de los potenciales que se ven en la figura cumple una función. G1 es un potencial de frenado que detiene a los electrones más débiles. G2 y G4 enfocan y coliman el haz de electrones y G3 se encarga de acelerarlos.
+
+El fenómeno de difracción se manifiesta en el bulbo mediante anillos que varían su radio dependiendo del potencial que acelera los electrones.
+
+Las herramientas utilizadas en la experiencia fueron un multímetro para medir el potencial de aceleración y un vernier para medir el diámetro de los anillos de difracción.
+
+Para lograr mayor precisión se midió el diámetro exterior e interior de cada anillo y luego se calculó su promedio.
+
+### Instrumentos utilizados
+-   Fuente de alta tensión
+-   Tubo de difracción de electrones
+-   Pantalla de fósforo
+-   Cables conductores
+-   Resistencias (10M )
+-   Fuente VDC
+-   Calibre
+-   Divisor de tensión para lectura del altimetría
+-   Altímetro
+
+### Procedimiento de medición
+1.  Se arma el banco de medición con los dispositivos ya nombrados como se ve en la figura. Además se usa un divisor de tensión para obtener una lectura más precisa.
+2.  Se va variando la tensión de la fuente y se fija.
+3.  Se miden los diámetros internos y externos de los anillos de Debye-Scherrer con un calibre. Se miden solo los anillos más intensos que se observan (para todo V).
+4.  Se repiten los pasos (2) y (3) hasta los 9kV.
+
+IMG4
+
+Como se ve en la figura, sobre la pantalla de fósforo se observan anillos concéntricos denominados anillos de Debye-Scherrer. Este patrón de interferencia se produce como ya se mencionó por la estructura del material utilizado como red espacial de difracción, que al tener variedad de planos con disposiciones angulares diferentes, hacen que aparezcan circunferencias en la pantalla perpendicular a la dirección de incidencia. En cuanto a la manera de medir los anillos, decidimos medir su diámetro, disminuyendo el error que se cometería queriendo ubicar el eje central de los círculos
+
+Al tener todas las mediciones de los anillos, podemos calcular los ángulos de Bragg para tales. Viendo la figura, se ve claramente que se puede determinar con la siguiente relación trigonométrica
+
+EQ3
+Demostración de la fórmula en apéndice.
+
+siendo:
+-   el ángulo de Bragg
+-   d el diámetro del anillo
+-   D el diámetro del bulbo
+
+
 ## Resultados y análisis
 
-En la siguiente tabla podemos ver los resultados obtenidos en las mediciones. En
-tipo de anillo, G significa anillo grande y C anillo chico.
+
+### Resultados obtenidos
+En la siguiente tabla podemos ver los resultados obtenidos en las mediciones. En la columna "Anillo", G significa anillo grande y C anillo chico.
 
 
-| $T$ |  $\Delta T$ |  $d_{int}$ |  $d_{ext}$ |  tipo de anillo|
+| $T$     | $\Delta T$ |  $d_{int}$ |  $d_{ext}$ |  Anillo|
 |---------|------------|-------|-------|-------|
-| 4.07    |  0.04      |  3.71 |  4.30 |  G    |
-| 4.07    |  0.04      |  2.11 |  2.50 |  C    |
-| 4.99    |  0.04      |  3.40 |  3.92 |  G    |
-| 4.99    |  0.04      |  1.88 |  2.23 |  C    |
-| 6.05    |  0.06      |  3.19 |  3.55 |  G    |
-| 6.05    |  0.06      |  1.75 |  2.00 |  C    |
-| 6.99    |  0.03      |  2.91 |  3.28 |  G    |
-| 6.99    |  0.03      |  1.71 |  1.90 |  C    |
-| 8.04    |  0.05      |  2.87 |  3.17 |  G    |
-| 8.04    |  0.05      |  1.64 |  1.87 |  C    |
+-| 4.07    |  0.04      |  3.71 |  4.30 |  G    |
+-| 4.07    |  0.04      |  2.11 |  2.50 |  C    |
+-| 4.99    |  0.04      |  3.40 |  3.92 |  G    |
+-| 4.99    |  0.04      |  1.88 |  2.23 |  C    |
+-| 6.05    |  0.06      |  3.19 |  3.55 |  G    |
+-| 6.05    |  0.06      |  1.75 |  2.00 |  C    |
+-| 6.99    |  0.03      |  2.91 |  3.28 |  G    |
+-| 6.99    |  0.03      |  1.71 |  1.90 |  C    |
+-| 8.04    |  0.05      |  2.87 |  3.17 |  G    |
+-| 8.04    |  0.05      |  1.64 |  1.87 |  C    |
+
+### Análisis de los resultados
+
 
 ## Conclusiones
 
