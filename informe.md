@@ -6,31 +6,7 @@ author:
 - Fabrizio Sebastián Graffe (93158)
 - Joaquin Torré Zaffaroni (98314)
 ---
-
-## Introduccion
-## Metodo experimental
-## Resultados y análisis
-
-En la siguiente tabla podemos ver los resultados obtenidos en las mediciones. En
-tipo de anillo, G significa anillo grande y C anillo chico.  
-
-
-| $T$ |  $\Delta T$ |  $d_{int}$ |  $d_{ext}$ |  tipo de anillo|
-|---------|------------|-------|-------|-------|
-| 4.065   |  0.035     |  3.71 |  4.30 |  G    |
-| 4.065   |  0.035     |  2.11 |  2.50 |  C    |
-| 4.99    |  0.04      |  3.40 |  3.92 |  G    |
-| 4.99    |  0.04      |  1.88 |  2.23 |  C    |
-| 6.045   |  0.055     |  3.19 |  3.55 |  G    |
-| 6.045   |  0.055     |  1.75 |  2.00 |  C    |
-| 6.99    |  0.03      |  2.91 |  3.28 |  G    |
-| 6.99    |  0.03      |  1.71 |  1.90 |  C    |
-| 8.04    |  0.05      |  2.87 |  3.17 |  G    |
-| 8.04    |  0.05      |  1.64 |  1.87 |  C    |
-
-## Conclusiones
-
-## Apéndice - cuestionario
+## Cuestionario
 
 ### Experimento de Davison-Germer y la Ley de Bragg
 
@@ -138,4 +114,7 @@ Y esto nos da un método sin aproximaciones para calcular el ángulo de Bragg, y
 que $r$ es lo que medimos (el radio del anillo) y $R$ es conocido (el radio del
 bulbo).
 
-### Tablas de $\theta$ para distintos $n, v, d$
+### Tablas de $\theta$ para distintos $n, v, d$  
+
+   ![Diámetro de los anillos para distintos $d$ en respuesta a distinta tensión, n = 1](nivel_1.png)
+   ![Diámetro de los anillos para distintos $d$ en respuesta a distinta tensión, n = 2](nivel_2.png)
