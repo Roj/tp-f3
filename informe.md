@@ -98,6 +98,8 @@ En la siguiente tabla podemos ver los resultados obtenidos en las mediciones. En
 ### Análisis de los resultados
 
 
+   ![Resultados experimentales.](resultados_experimentales.png)
+
 ## Conclusiones
 
 ## Apéndice - cuestionario
@@ -192,7 +194,7 @@ relativamente a la magnitud que se mide será mucho menor.
 
 ### Cálculo del $\theta$ sin aproximación  
 
-En la Figura 2 podemos ver la geometría del dispositivo experimental. Esto nos
+En la Figura 3 podemos ver la geometría del dispositivo experimental. Esto nos
 permite ver cómo se relaciona el ángulo de dispersión (y en definitiva el ángulo
 de Bragg) con las dimensiones del bulbo y de los anillos que se observan en la
 pantalla de fósforo.
