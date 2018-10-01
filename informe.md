@@ -7,8 +7,21 @@ author:
 - Joaquin Torré Zaffaroni (98314)
 ---
 
-## Introduccion
+## Introducción
+El presente trabajo práctico consiste en la confirmación de los postulados de de
+Broglie a través de una reproducción (con algunas diferencias) de los 
+experimentos de Clinton Davisson y Lester Germer. El objetivo es observar el
+patrón de interferencia generado por materia, en este caso, electrones
+acelerados a través de un policristal y chocan contra una pantalla de fósforo.
+
+Los postulados de de Broglie afirman que no sólo los fotones tienen la dualidad
+onda-partícula, sino que esta particularidad se extiende hacia toda la materia.
+Louis de Broglie publica estos postulados en 1924, y los primeros resultados
+experimentales que confirmaban tales hipótesis fueron los experimentos de Young
+y de Davisson y Germer.  
+
 ## Metodo experimental
+
 ## Resultados y análisis
 
 En la siguiente tabla podemos ver los resultados obtenidos en las mediciones. En
@@ -34,7 +47,7 @@ tipo de anillo, G significa anillo grande y C anillo chico.
 
 ## Apéndice - cuestionario
 
-### Experimento de Davison-Germer y la Ley de Bragg
+### Experimento de Davisson-Germer y la Ley de Bragg
 
 ### Relación entre longitud de onda y energía cinética  
 
