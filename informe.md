@@ -8,6 +8,31 @@ author:
 ---
 
 ## Introduccion
+
+La primera persona en proponer que la materia tiene comportamiento tanto ondulatorio como corpuscular fue L de Broglie, en 1924. Sin embargo en esa época no le fue posible conseguir evidencia que apoye su teoría. Así como se sabía que la luz tiene propiedades ondulatorias y corpusculares el conjeturo que quizá la materia también se comportaria similarmente.
+
+Los primeros en observar el fenómeno de difracción  fueron Davisson y Germer en los laboratorios de Bell Telephone. Ellos se encontraban estudiando la dispersión de un haz de electrones contra un blanco de níquel. Luego de un largo periodo de bombardeo de electrones notaron sobre la placa receptora máximos y mínimos de intensidad, en función del ángulo y la tensión de aceleración.
+
+longitudes de onda de manera trigonométrica, conociendo la tensión de aceleración, la distancia interplanar del cristal y el diámetro de proyección.
+
+$$\mathrm{F}= \frac{E}{h}$$
+
+$$\mathrm{\lambda}= \frac{H}{p}$$ 
+
+Donde E y p son la energía y cantidad de movimiento del electrón respectivamente y h la constante de Planck.
+
+De esta manera demostraron que las partículas de materia presentan características de ondas en determinadas condiciones, confirmando así la hipótesis de De Broglie sobre la dualidad onda-partícula.
+
+![Difracion de electrones](difraccion.png)
+![Esquema del experimento](experimento.png)
+
+
+
+Donde E y p son la energía y cantidad de movimiento del electrón respectivamente y h la constante de Planck.
+
+De esta manera demostraron que las partículas de materia presentan características de ondas en determinadas condiciones, confirmando así la hipótesis de De Broglie sobre la dualidad onda-partícula.
+
+
 ## Metodo experimental
 ## Resultados y análisis
 
