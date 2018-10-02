@@ -7,33 +7,30 @@ author:
 - Joaquin Torré Zaffaroni (98314)
 ---
 
-## Resumen
-El trabajo práctico consiste en hacer pasar un haz de electrones, acelerados por un potencial V, a través de un policristal de grafito y observar el diagrama de interferencia que estos producen sobre una pantalla de fósforo, pudiendo así calcular la distancia interplanar del cristal, y la longitud de onda del haz difractado.
-
 ## Introduccion
+
 La primera persona en proponer que la materia tiene comportamiento tanto ondulatorio como corpuscular fue L de Broglie, en 1924. Sin embargo en esa época no le fue posible conseguir evidencia que apoye su teoría. Así como se sabía que la luz tiene propiedades ondulatorias y corpusculares el conjeturo que quizá la materia también se comportaria similarmente.
 
-Los primeros en observar el fenómeno de difracción fueron Davisson y Germer en los laboratorios de Bell Telephone. Ellos se encontraban estudiando la dispersión de un haz de electrones contra un blanco de níquel. Luego de un largo periodo de bombardeo de electrones notaron sobre la placa receptora máximos y mínimos de intensidad, en función del ángulo y la tensión de aceleración.
+Los primeros en observar el fenómeno de difracción  fueron Davisson y Germer en los laboratorios de Bell Telephone. Ellos se encontraban estudiando la dispersión de un haz de electrones contra un blanco de níquel. Luego de un largo periodo de bombardeo de electrones notaron sobre la placa receptora máximos y mínimos de intensidad, en función del ángulo y la tensión de aceleración.
 
-IMG 1
-IMG 2
+longitudes de onda de manera trigonométrica, conociendo la tensión de aceleración, la distancia interplanar del cristal y el diámetro de proyección.
 
-Al notar este fenómeno lo reprodujeron con diferentes monocristales logrando deducir las longitudes de onda de manera trigonométrica, conociendo la tensión de aceleración, la distancia interplanar del cristal y el diámetro de proyección.
+$$\mathrm{F}= \frac{E}{h}$$
 
-EQ1
-EQ2
+$$\mathrm{\lambda}= \frac{H}{p}$$ 
 
 Donde E y p son la energía y cantidad de movimiento del electrón respectivamente y h la constante de Planck.
+
 De esta manera demostraron que las partículas de materia presentan características de ondas en determinadas condiciones, confirmando así la hipótesis de De Broglie sobre la dualidad onda-partícula.
 
+![Difracion de electrones](difraccion.png)
+![Esquema del experimento](experimento.png)
 
 ## Metodo experimental
 Dispositivo:
 IMG 3
 
 Para llevar a cabo la experiencia se utilizó un bulbo en el cual electrones acelerados mediante un potencial chocan contra un policristal de grafito y son difractados con cierto ángulo.
-
-  
 
 Cada uno de los potenciales que se ven en la figura cumple una función. G1 es un potencial de frenado que detiene a los electrones más débiles. G2 y G4 enfocan y coliman el haz de electrones y G3 se encarga de acelerarlos.
 
@@ -77,6 +74,8 @@ siendo:
 
 ## Resultados y análisis
 
+En la siguiente tabla podemos ver los resultados obtenidos en las mediciones. En
+tipo de anillo, G significa anillo grande y C anillo chico.
 
 ### Resultados obtenidos
 En la siguiente tabla podemos ver los resultados obtenidos en las mediciones. En la columna "Anillo", G significa anillo grande y C anillo chico.
