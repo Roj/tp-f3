@@ -24,6 +24,7 @@ Donde E y p son la energía y cantidad de movimiento del electrón respectivamen
 De esta manera demostraron que las partículas de materia presentan características de ondas en determinadas condiciones, confirmando así la hipótesis de De Broglie sobre la dualidad onda-partícula.
 
 ![Difracion de electrones](difraccion.png)
+
 ![Esquema del experimento](experimento.png)
 
 ## Metodo experimental
