@@ -162,7 +162,7 @@ $$\Delta \lambda(T, \Delta T) =
 	\frac{\partial}{\partial T} \left (
 		\frac{h}{\sqrt{2m_e T}}
 	\right )(T) \times \Delta T
-\right | = \frac{h}{2\sqrt{m_e}\ T^{3/2}} \Delta T$$
+\right | = \frac{h}{\sqrt{2m_e}\ T^{3/2}} \Delta T$$
 
 ## Conclusiones
 
