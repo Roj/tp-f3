@@ -141,8 +141,8 @@ Utilizando los postulados de De Broglie y la hipótesis no relativista
 (que en el apéndice se ve que tiene un error menor al $1\%$ en este orden
 de energías) podemos calcular las longitudes de onda de las funciones de onda
 asociadas a los electrones, con la siguiente relación:
-$$\lambda = \frac{h}{2m_e T}$$
-donde $h$ es la constante e Planck, $m_e$ la masa del electrón y $T$ la tensión
+$$\lambda = \frac{h}{\sqrt{2m_e T}}$$
+donde $h$ es la constante de Planck, $m_e$ la masa del electrón y $T$ la tensión
 con la cual se acelera a los electrones.
 Los resultados obtenidos se pueden ver en la tabla siguiente.
 
