@@ -104,7 +104,26 @@ En la siguiente tabla podemos ver los resultados obtenidos en las mediciones. En
 
 ## Apéndice - cuestionario
 
+
 ### Experimento de Davison-Germer y la Ley de Bragg
+
+El experimento de Davisson y Germer demostró que los objetos corpusculares presentaban un carácter ondulatorio, corroborando la hipótesis de Louis-Victor de Broglie, en la que expone que toda la materia, (electrones, átomos o moléculas), presenta características tanto corpusculares como ondulatorias.
+
+En este experimento, un monocristal es bombardeado con electrones acelerados por un potencial eléctrico V. Suponiendo que  los electrones presentan un comportamiento ondulatorio, la onda incidente se refleja en cada uno de los planos atómicos, existiendo una interferencia constructiva de las ondas reflejadas en planos paralelos consecutivos descritos por la ley de bragg.
+
+Lo que se observa es que estos son reflejados mayoritariamente en aquellas direcciones privilegiadas para las que exista interferencia constructiva, lo cual demuestra la hipótesis de de broglie.
+
+ley de bragg 
+
+Cuando los rayos X alcanzan un átomo interactúan con sus electrones exteriores. Estos reemiten la radiación electromagnética incidente en diferentes direcciones y con la misma frecuencia (en realidad debido a varios efectos hay pequeños cambios en su frecuencia). Este fenómeno se conoce como dispersión de Rayleigh (o dispersión elástica). Los rayos X reemitidos desde átomos cercanos interfieren entre sí constructiva o destructivamente. Este es el fenómeno de la difracción.
+
+![ley de bragg.](bragg.png)
+
+La radiación incidente llega a átomos consecutivos con un ligero desfase (izquierda). La radiación dispersada por los átomos (círculos azules) interfiere con radiación dispersada por átomos adyacentes. Las direcciones en las que los círculos se superponen son direcciones de interferencia constructiva.
+
+La interferencia es constructiva cuando la diferencia de fase entre la radiación emitida por diferentes átomos es proporcional a 2 pi. Esta condición se expresa en la ley de Bragg:
+
+$$\ n \lambda = 2 d \sin(\Theta)$$
 
 ### Relación entre longitud de onda y energía cinética  
 
@@ -117,6 +136,8 @@ relativista.
 En el caso clásico, donde la energía cinética del electrón es relativamente
 pequeña respecto a la energía asociada a la masa en reposo, podemos usar la
 asociación entre energía cinética y cantidad de movimiento lineal:   
+
+$$\ n \lambda = \frac{h}{\sqrt{2m_e 10keV}} = 0,1226 \AA$$
 
 $$\mathrm{E}_c = \frac{p^2}{2m}$$ 
 
