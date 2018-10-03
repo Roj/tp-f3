@@ -148,11 +148,21 @@ Los resultados obtenidos se pueden ver en la tabla siguiente.
 
 | $T[keV]$ | $\Delta T [keV]$ |  $\lambda [\AA]$ |  $\Delta \lambda [\AA]$ |
 |---------|------------|-------|-------
-| 4.07    |  0.04      |  1.922     |       
-| 4.99    |  0.04      |  1.736     |       
-| 6.05    |  0.06      |  1.576     |       
-| 6.99    |  0.06      |  1.467     |       
-| 8.04    |  0.06      |  1.367     |      
+| 4.07    |  0.04      |  0.1922     |       
+| 4.99    |  0.04      |  0.1736     |       
+| 6.05    |  0.06      |  0.1576     |       
+| 6.99    |  0.06      |  0.1467     |       
+| 8.04    |  0.06      |  0.1367     |      
+
+Para calcular $\Delta \lambda$ utilizamos propagación lineal de variables.
+Usamos la siguiente expresión:
+
+$$\Delta \lambda(T, \Delta T) =
+\left |
+	\frac{\partial}{\partial T} \left (
+		\frac{h}{\sqrt{2m_e T}}
+	\right )(T) \times \Delta T
+\right | = \frac{h}{2\sqrt{m_e}\ T^{3/2}} \Delta T$$
 
 ## Conclusiones
 
