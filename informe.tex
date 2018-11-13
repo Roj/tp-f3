@@ -246,12 +246,12 @@ calibre (incerteza de 0,1mm):
 
 \begin{longtable}[]{@{}llll@{}}
 \toprule
-\(V[v]\) & \(\Delta T[v]\) & \(d_{int}[mm]\) &
+\(V[K\mathrm{v}]\) & \(\Delta V[K\mathrm{v}]\) & \(d_{int}[mm]\) &
 \(d_{ext}[mm]\)\tabularnewline
 \midrule
 \endfirsthead
 \toprule
-\(V[v]\) & \(\Delta T[v]\) & \(d_{int}[mm]\) &
+\(V[K\mathrm{v}]\) & \(\Delta V[K\mathrm{v}]\) & \(d_{int}[mm]\) &
 \(d_{ext}[mm]\)\tabularnewline
 \midrule
 \endhead
@@ -267,12 +267,12 @@ anillo mas grande.}\tabularnewline
 
 \begin{longtable}[]{@{}llll@{}}
 \toprule
-\(V[v]\) & \(\Delta T[v]\) & \(d_{int}[mm]\) &
+\(V[K\mathrm{v}]\) & \(\Delta V[K\mathrm{v}]\) & \(d_{int}[mm]\) &
 \(d_{ext}[mm]\)\tabularnewline
 \midrule
 \endfirsthead
 \toprule
-\(V[v]\) & \(\Delta T[v]\) & \(d_{int}[mm]\) &
+\(V[K\mathrm{v}]\) & \(\Delta V[K\mathrm{v}]\) & \(d_{int}[mm]\) &
 \(d_{ext}[mm]\)\tabularnewline
 \midrule
 \endhead
@@ -297,12 +297,12 @@ resultados}\label{anuxe1lisis-de-los-resultados}}
 
 \begin{longtable}[]{@{}lll@{}}
 \toprule
-\(V[v]\) & \(\alpha_{int} [grad]\) &
+\(V[K\mathrm{v}]\) & \(\alpha_{int} [grad]\) &
 \(\alpha_{ext} [grad]\)\tabularnewline
 \midrule
 \endfirsthead
 \toprule
-\(V[v]\) & \(\alpha_{int} [grad]\) &
+\(V[K\mathrm{v}]\) & \(\alpha_{int} [grad]\) &
 \(\alpha_{ext} [grad]\)\tabularnewline
 \midrule
 \endhead
@@ -317,12 +317,12 @@ resultados}\label{anuxe1lisis-de-los-resultados}}
 
 \begin{longtable}[]{@{}lll@{}}
 \toprule
-\(V[v]\) & \(\alpha_{int} [grad]\) &
+\(V[K\mathrm{v}]\) & \(\alpha_{int} [grad]\) &
 \(\alpha_{ext} [grad]\)\tabularnewline
 \midrule
 \endfirsthead
 \toprule
-\(V[v]\) & \(\alpha_{int} [grad]\) &
+\(V[K\mathrm{v}]\) & \(\alpha_{int} [grad]\) &
 \(\alpha_{ext} [grad]\)\tabularnewline
 \midrule
 \endhead
@@ -355,12 +355,12 @@ aplicada. (ver anexo B)
 
 \begin{longtable}[]{@{}llll@{}}
 \toprule
-\(V[kv]\) & \(\Delta V [kv]\) & \(\lambda [\AA]\) &
+\(V[K\mathrm{v}]\) & \(\Delta V [K\mathrm{v}]\) & \(\lambda [\AA]\) &
 \(\Delta \lambda [\AA]\)\tabularnewline
 \midrule
 \endfirsthead
 \toprule
-\(V[kv]\) & \(\Delta V [kv]\) & \(\lambda [\AA]\) &
+\(V[K\mathrm{v}]\) & \(\Delta V [K\mathrm{v}]\) & \(\lambda [\AA]\) &
 \(\Delta \lambda [\AA]\)\tabularnewline
 \midrule
 \endhead
@@ -383,9 +383,9 @@ frecuencia.
 \begin{longtable}[]{@{}llllll@{}}
 \toprule
 \begin{minipage}[b]{0.12\columnwidth}\raggedright
-\(V[kv]\)\strut
+\(V[K\mathrm{v}]\)\strut
 \end{minipage} & \begin{minipage}[b]{0.16\columnwidth}\raggedright
-\(\Delta V [kv]\)\strut
+\(\Delta V [K\mathrm{v}]\)\strut
 \end{minipage} & \begin{minipage}[b]{0.21\columnwidth}\raggedright
 \(\lambda_{relativista} [\AA]\)\strut
 \end{minipage} & \begin{minipage}[b]{0.14\columnwidth}\raggedright
@@ -399,9 +399,9 @@ frecuencia.
 \endfirsthead
 \toprule
 \begin{minipage}[b]{0.12\columnwidth}\raggedright
-\(V[kv]\)\strut
+\(V[K\mathrm{v}]\)\strut
 \end{minipage} & \begin{minipage}[b]{0.16\columnwidth}\raggedright
-\(\Delta V [kv]\)\strut
+\(\Delta V [K\mathrm{v}]\)\strut
 \end{minipage} & \begin{minipage}[b]{0.21\columnwidth}\raggedright
 \(\lambda_{relativista} [\AA]\)\strut
 \end{minipage} & \begin{minipage}[b]{0.14\columnwidth}\raggedright
@@ -565,7 +565,7 @@ al patrón de interferencia que observamos con los anillos, sino que son
 múltiples.
 
 Estas observaciones se cumplen para todas las mediciones excepto la de
-\(\mathrm{Tension} = (8.04 \pm 0.06)kV\), en la que en ambos anillos
+\(\mathrm{V} = (8.04 \pm 0.06)K\mathrm{v}\), en la que en ambos anillos
 sólo queda una distancia interplanar adentro. En ambos casos hay un
 aumento del valor que logra esto. Esto puede ser una sobre-estimación
 del valor, y puede deberse a un error bajo en la medición del diámetro.
@@ -586,23 +586,25 @@ que la diferencia es mínima.
 
 Los resultados obtenidos satisfacen la hipótesis de que la materia
 corpuscular también presenta cualidades ondulatorias. Las longitudes de
-onda para los electrones coinciden con lo calculado teóricamente en
+onda para los electrones coinciden mayormente con lo calculado teóricamente en
 función de las tensiones medidas. El máximo error relativo fue del
-7.8\%, un número bajo que inspira confianza sobre los resultados que
-prueban el modelo de De Broglie. Los diámetros hallados
-experimentalmente, se ajustan a los diámetros calculados analiticamente
-expresados en el gráfico como {[}1.2340E-10 m, n=1{]} y {[}2.1386E-10 m,
-n=1{]} los cuales corresponden a las las distancias interplanares 1,2340
-Å y 2,1386 Å respectivamente, tal como se había hallado previamente en
-las tablas 5 y 6. A su vez, por medio del gráfico pudimos observar que
-los diámetros de anillos correspondientes a la distancia interplanar
-{[}2.1386E-10 m, n=1{]} y {[}2.0390E-10 m, n=1{]} quedan dentro del área
-dada entre los diámetros d1int y d1ext. Y lo mismo es observado para
-{[}1.2340E-10 m, n=1{]} y {[}1.1603E-10 m, n=1{]}, los cuales quedan
-entre los diametros d2int y d2ext. La razón de que ocurra éste fenómeno
-podría ser que mas de una distancia interplanar esté contribuyendo a la
-formación de los anillos (en este caso son 2 distancias interplanares
-distintas para cada anillo, d1 y d2).
+7.8\%, un número tal vez no tan bajo como el que se hubiera esperado, pero 
+que puede ser atribuido a errores en las mediciones de los diametros de los
+anillos. Los diámetros hallados experimentalmente, se ajustan a los 
+diámetros calculados analiticamente expresados en el gráfico como 
+{[}1.2340E-10 m, n=1{]} y {[}2.1386E-10 m, n=1{]} los cuales corresponden 
+a las las distancias interplanares 1,2340 \AA y 2,1386 \AA respectivamente, 
+tal como se había hallado previamente en las tablas 5 y 6. 
+A su vez, por medio del gráfico pudimos observar que los diámetros de anillos correspondientes a la distancia interplanar {[}2.1386E-10 m, n=1{]} y 
+{[}2.0390E-10 m, n=1{]} quedan dentro del área dada entre los diámetros 
+d1int y d1ext. Y lo mismo es observado para {[}1.2340E-10 m, n=1{]} y 
+{[}1.1603E-10 m, n=1{]}, los cuales quedan entre los diametros 
+d2int y d2ext. La razón de que ocurra éste fenómeno podría ser que mas de 
+una distancia interplanar esté contribuyendo a la formación de los 
+anillos (en este caso son 2 distancias interplanares distintas para cada 
+anillo, d1 y d2).
+
+\newpage
 
 \hypertarget{apuxe9ndice-a---cuestionario}{%
 \subsection{Apéndice A -
@@ -786,6 +788,8 @@ conocido (el radio del bulbo).
 
 \includegraphics{nivel_1.png} \includegraphics{nivel_2.png}
 
+\newpage
+
 \hypertarget{apuxe9ndice-b}{%
 \subsection{Apéndice B}\label{apuxe9ndice-b}}
 
@@ -802,11 +806,11 @@ variables. Dado que las energias de los electrones estan en el orden de
 los KeV, lo cual es mucho menor a \(m_o c^2\), podemos usar la siguiente
 expresión para el calculo de la incerteza:
 
-\[\Delta \lambda(T, \Delta T) =
+\[\Delta \lambda(V, \Delta V) =
 \left |
-    \frac{\partial}{\partial T} \left (
-        \frac{h}{\sqrt{2m_e T}}
-    \right )(T) \times \Delta T
-\right | = \frac{h}{\sqrt{2m_e}\ T^{3/2}} \Delta T\]
+    \frac{\partial}{\partial V} \left (
+        \frac{h}{\sqrt{2m_e eV}}
+    \right )(V) \times \Delta V
+\right | = \frac{h}{\sqrt{2m_e}\ eV^{3/2}} \Delta V\]
 
 \end{document}
