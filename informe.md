@@ -7,6 +7,12 @@ author:
 - Joaquin Torré Zaffaroni (98314)
 ---
 
+\newpage
+
+## Resumen
+El trabajo práctico consiste en hacer pasar un haz de electrones, acelerados por un potencial V, a través de un policristal de grafito y observar el diagrama de interferencia que estos producen sobre una pantalla de fósforo, pudiendo así calcular la distancia interplanar del cristal, y la longitud de onda del haz difractado.
+
+
 ## Introducción
 
 La primera persona en proponer que la materia tiene comportamiento tanto 
@@ -20,6 +26,14 @@ de un haz de electrones contra un blanco de níquel. Luego de un largo periodo
 de bombardeo de electrones notaron sobre la placa receptora máximos y mínimos 
 de intensidad, en función del ángulo y la tensión de aceleración.
 
+Al notar este fenómeno lo reprodujeron con diferentes monocristales logrando deducir las longitudes de onda de manera trigonométrica, conociendo la tensión de aceleración, la distancia interplanar del cristal y el diámetro de proyección.
+
+$$f = \frac{E}{h}$$
+
+$$\lambda = \frac{h}{p}$$
+
+Donde E y p son la energía y cantidad de movimiento del electrón respectivamente y h la constante de Planck.
+
 De esta manera encontraron evidencia de un comportamiento de la materia que
 no corresponde al modelo de partícula sino a un modelo de onda; es decir,
 la materia también presentaba una dualidad onda-partícula en su comportamiento.
@@ -28,9 +42,12 @@ la materia también presentaba una dualidad onda-partícula en su comportamiento
 
 ![Dispositivo experimental de Davisson y Germer.](experimento.png)
 
+
+\newpage
+
 ## Método experimental  
 
-   ![Dispositivo experimental](geometria_experimento.png)
+![Dispositivo experimental](geometria_experimento.png)
 
 Para llevar a cabo la experiencia se utilizó un bulbo en el cual electrones 
 acelerados mediante un potencial atraviesan un policristal de grafito y son 
@@ -44,11 +61,8 @@ El fenómeno de difracción se manifiesta en el bulbo mediante anillos que
 varían su radio dependiendo del potencial que acelera los electrones.
 
 Las herramientas utilizadas en la experiencia fueron un multímetro para medir 
-el potencial de aceleración y un vernier para medir el diámetro de los anillos 
+el potencial de aceleración y un calibre para medir el diámetro de los anillos 
 de difracción.
-
-Para lograr mayor precisión se midió el diámetro exterior e interior de cada 
-anillo y luego se calculó su promedio.
 
 ### Instrumentos utilizados
 -   Fuente de alta tensión
@@ -62,20 +76,20 @@ anillo y luego se calculó su promedio.
 -   Altímetro
 
 ### Procedimiento de medición
-1.  Se arma el banco de medición con los dispositivos ya nombrados como se ve en la figura. Además se usa un divisor de tensión para obtener una lectura más precisa.
+1.  Se arma el banco de medición con los dispositivos ya nombrados como se ve en la figura 3. Además se usa un divisor de tensión para obtener una lectura más precisa.
 2.  Se va variando la tensión de la fuente y se fija.
 3.  Se miden los diámetros internos y externos de los anillos de Debye-Scherrer con un calibre. Se miden solo los anillos más intensos que se observan (para todo V).
 4.  Se repiten los pasos (2) y (3) hasta los 9kV.
 
 
-Como se ve en la figura, sobre la pantalla de fósforo se observan anillos concéntricos denominados anillos de Debye-Scherrer. Este patrón de interferencia se produce como ya se mencionó por la estructura del material utilizado como red espacial de difracción, que al tener variedad de planos con disposiciones angulares diferentes, hacen que aparezcan circunferencias en la pantalla perpendicular a la dirección de incidencia. En cuanto a la manera de medir los anillos, decidimos medir su diámetro, disminuyendo el error que se cometería queriendo ubicar el eje central de los círculos
+Como se ve en la figura, sobre la pantalla de fósforo se observan anillos concéntricos denominados anillos de Debye-Scherrer. Este patrón de interferencia se produce como ya se mencionó por la estructura del material utilizado como red espacial de difracción, que al tener variedad de planos con disposiciones angulares diferentes, hacen que aparezcan circunferencias en la pantalla perpendicular a la dirección de incidencia. En cuanto a la manera de medir los anillos, decidimos medir su diámetro, disminuyendo el error que se cometería queriendo ubicar el eje central de los círculos.
 
 Al tener todas las mediciones de los anillos, podemos calcular los ángulos de Bragg para tales. Viendo la figura, se ve claramente que se puede determinar con la siguiente relación trigonométrica (cuya demostración se puede ver en el apéndice)
 
 $$\theta = \frac{1}{4} \arcsin\left (\frac{r}{R} \right )$$
 
 
-siendo $\theta$ el ángulo de Bragg, $r$ el diámetro del anillo y $R$ el 
+Siendo $\theta$ el ángulo de Bragg, $r$ el diámetro del anillo y $R$ el 
 diámetro del bulbo.
 
 
@@ -85,28 +99,122 @@ En la siguiente tabla podemos ver los resultados obtenidos en las mediciones. En
 tipo de anillo, G significa anillo grande y C anillo chico.
 
 ### Resultados obtenidos
-En la siguiente tabla podemos ver los resultados obtenidos en las mediciones. En la columna "Anillo", G significa anillo grande y C anillo chico.
+En la siguiente tabla podemos ver los resultados obtenidos en las mediciones. En la columna "Anillo", G significa anillo grande y C anillo chico. Se midió el diámetro de los anillos de difracción G y C nombrando los anillos a partir del centro de simetría mediante un calibre (incerteza de 0,1mm):
 
+| $V[v]$     | $\Delta T[v]$ |  $d_{int}[mm]$ |  $d_{ext}[mm]$ |
+|---------|------------|-------|-------|
+| 4.07    |  0.03      |  37.1 |  43.0 |
+| 4.99    |  0.04      |  34.0 |  39.2 |
+| 6.05    |  0.05      |  31.9 |  35.5 |
+| 6.99    |  0.06      |  29.1 |  32.8 |
+| 8.04    |  0.06      |  28.7 |  31.7 |
 
-| $T[keV]$     | $\Delta T[keV]$ |  $d_{int}[\AA]$ |  $d_{ext}[\AA]$ |  Anillo|
-|---------|------------|-------|-------|-------|
-| 4.07    |  0.04      |  3.71 |  4.30 |  G    |
-| 4.07    |  0.04      |  2.11 |  2.50 |  C    |
-| 4.99    |  0.04      |  3.40 |  3.92 |  G    |
-| 4.99    |  0.04      |  1.88 |  2.23 |  C    |
-| 6.05    |  0.06      |  3.19 |  3.55 |  G    |
-| 6.05    |  0.06      |  1.75 |  2.00 |  C    |
-| 6.99    |  0.06      |  2.91 |  3.28 |  G    |
-| 6.99    |  0.06      |  1.71 |  1.90 |  C    |
-| 8.04    |  0.06      |  2.87 |  3.17 |  G    |
-| 8.04    |  0.06      |  1.64 |  1.87 |  C    |
+Table: diámetros de los anillos 1 y 2 del patrón de difracción para el anillo mas grande.
+
+| $V[v]$     | $\Delta T[v]$ |  $d_{int}[mm]$ |  $d_{ext}[mm]$ |
+|---------|------------|-------|-------|
+| 4.07    |  0.03      |  21.1 |  25.0 |
+| 4.99    |  0.04      |  18.8 |  22.3 |
+| 6.05    |  0.05      |  17.5 |  20.0 |
+| 6.99    |  0.06      |  17.1 |  19.0 |
+| 8.04    |  0.06      |  16.4 |  18.7 |
+
+Table: diámetros de los anillos 1 y 2 del patrón de difracción para el anillo mas chico.
+
+A partir de los resultados de la medición, se prosiguió a realizar los cálculos del ángulo de difracción según lo especificado en el apéndice B, junto con el desarrollo de la propagación de errores.  En la siguiente sección se muestran los resultados de los cálculos. 
 
 ### Análisis de los resultados
 
 
-   ![Resultados experimentales.](resultados_experimentales.png)
+| $V[v]$  | $\alpha_{int} [grad]$ |  $\alpha_{ext} [grad]$ |
+|------------------|-----------------|------------------|
+| 4.07 $\pm$ 0.04  | 4.78 $\pm$ 0.27 | 5.68 $\pm$  0.32 |
+| 4.99 $\pm$ 0.04  | 4.26 $\pm$ 0.25 | 5.06 $\pm$  0.29 |
+| 6.05 $\pm$ 0.06  | 3.96 $\pm$ 0.23 | 4.53 $\pm$  0.26 |
+| 6.99 $\pm$ 0.06  | 3.87 $\pm$ 0.23 | 3.96 $\pm$  0.25 |
+| 8.04 $\pm$ 0.06  | 3.71 $\pm$ 0.22 | 4.23 $\pm$  0.25 |
 
-En el gráfico superponemos los resultados experimentales y los valores de
+Table: ángulo de Bragg para anillo mas grande.
+
+
+| $V[v]$  | $\alpha_{int} [grad]$ |  $\alpha_{ext} [grad]$ |
+|-----------------|-----------------|------------------|
+| 4.07 $\pm$ 0.03 | 4.78 $\pm$ 0.27 | 9.90 $\pm$  0.32 |
+| 4.99 $\pm$ 0.04 | 4.26 $\pm$ 0.25 | 5.06 $\pm$  0.29 |
+| 6.05 $\pm$ 0.05 | 3.96 $\pm$ 0.23 | 4.53 $\pm$  0.26 |
+| 6.99 $\pm$ 0.06 | 3.87 $\pm$ 0.23 | 3.96 $\pm$  0.25 |
+| 8.04 $\pm$ 0.06 | 3.71 $\pm$ 0.22 | 4.23 $\pm$  0.25 |
+
+Table: ángulo de Bragg para anillo mas chico.
+
+
+Dado que en la naturaleza el fenómeno se presenta de manera continua, los electrones difractados tienen su ángulo de difracción definido por una distribución de probabilidad y por lo tanto las observaciones que proporcionen el menor error experimental serán las mediciones de los diámetros internos y externos de los anillos. Es por ello que los ángulos se presentan para un sub-índice interno o externo.
+
+Observando la tabla 2, se ve claramente que el ángulo de difracción disminuye con el aumento de la tensión. Es de destacar que para este experimento únicamente se tomó las mediciones de los diámetros de los primeros 2 anillos (empezando desde el centro), dado que la intensidad del siguiente anillo ya era muy baja. Al aumentar la tensión, la intensidad del tercer anillo aumentaba y por supuesto su ángulo de difracción también disminuye. 
+
+También obtuvimos la longitud de onda de los electrones según la tensión aplicada.
+ (ver anexo B)
+
+
+| $V[kv]$ | $\Delta V [kv]$ |  $\lambda [\AA]$ |  $\Delta \lambda [\AA]$ |
+|---------|------------|-------|-----------|
+| 4.07    |  0.03      |  0.1918585131     |       
+| 4.99    |  0.04      |  0.1731942208     |       
+| 6.05    |  0.05      |  0.1572106535     |       
+| 6.99    |  0.06      |  0.1461916664     |       
+| 8.04    |  0.06      |  0.1362422209     |      
+
+Table: longitudes de onda (aplicando corrección relativista)
+
+La energía del electrón es la misma que la del campo eléctrico en la que se encuentra y que va a recorrer, por lo tanto tiene sentido que al incrementar la energía del electrón, disminuye su longitud de onda. Las ondas más energéticas son aquellas de corta longitud de onda y gran frecuencia.
+
+
+| $V[kv]$ | $\Delta V [kv]$ |  $\lambda_{relativista} [\AA]$ | $\lambda_{clasico} [\AA]$ |   $\Delta \lambda [\AA]$ | $\varepsilon$ % |
+|---------|------------|----------------|-----------|----------|------|
+| 4.07    |  0.03      |  0.1918585     | 0.1922402 | 0.000382 | 0.20 |
+| 4.99    |  0.04      |  0.1731942     | 0.1736165 | 0.000422 | 0.24 |
+| 6.05    |  0.05      |  0.1572107     | 0.1576753 | 0.000465 | 0.30 |
+| 6.99    |  0.06      |  0.1461917     | 0.1466907 | 0.000499 | 0.34 |
+| 8.04    |  0.06      |  0.1362422     | 0.1367771 | 0.000535 | 0.39 |
+Table: longitudes de onda y sus errores calculados para cada tensión.
+
+Y lógicamente, a medida que los electrones van ganando energía cinética el error relativo por no usar la corrección relativista se hace más relevante.
+
+
+Luego, determinamos qué familias de planos contribuyen a la formación de los anillos observados, usando la simulación del punto h del cuestionario. 
+Para facilitar el análisis de los datos, graficamos los anillos calculados y los medidos en función de las distintas tensiones aplicadas.
+
+
+El primer anillo (empezando desde el centro) corresponde a la distancia interplanar del cristal con distancia de $2,1386 \AA$.
+
+| $Diametro[mm]$ | $d=2.1386 \AA, n=1$ | $\varepsilon$ % |
+|-----------------|------------|-------|
+| 21.1 $\pm$ 0.1  |  22.8      |   7.5 |
+| 18.8 $\pm$ 0.1  |  20.4      |   7.8 |
+| 17.5 $\pm$ 0.1  |  18.6      |   5.9 |
+| 17.1 $\pm$ 0.1  |  17.3      |   1.1 |
+| 16.4 $\pm$ 0.1  |  16.2      |   1.2 |
+
+Table:  comparación de diámetros internos obtenidos experimentalmente con diámetro para n=1 y distancia interplanar 2,1386 Å
+
+
+El segundo anillo corresponde a la distancia  $1,2340 \AA$.
+
+
+| $Diametro[mm]$ | $d=1.2340 \AA, n=1$ | $\varepsilon$ % |
+|-----------------|------------|-------|
+| 37.1 $\pm$ 0.1  |  39.2      |   5.3 |
+| 34.0 $\pm$ 0.1  |  35.2      |   3.4 |
+| 31.9 $\pm$ 0.1  |  32.2      |   0.9 |
+| 29.1 $\pm$ 0.1  |  29.8      |   2.3 |
+| 28.7 $\pm$ 0.1  |  27.9      |   2.7 |
+
+Table:  comparación de diámetros externos obtenidos experimentalmente con diámetro para n=1 y distancia interplanar 1,2340 \AA
+
+
+![Resultados experimentales.](resultados_experimentales.png)
+
+En la figura 4 superponemos los resultados experimentales y los valores de
 los diámetros en función de la tensión para algunas distancias interplanares
 conocidas.  
 A partir del gráfico de los resultados podemos ver que los anillos medidos
@@ -114,9 +222,9 @@ A partir del gráfico de los resultados podemos ver que los anillos medidos
 calculados antes, *sí* tienen espesor) encierran en su parte brillante a más
 de una curva de distancia interplanar.
 
-En el caso del anillo grande, vemos que se encierra al anillo de nivel $1$ del
-plano con $d = 1.16\AA$ y del mismo nivel $d = 1.2340\AA$. En el chico, vemos
-que los anillos encerrados son $d = 2.0390\AA$ y $d = 2.1386$ del nivel $1$.  
+En el caso del anillo grande, vemos que se encierra al anillo de orden de difracción $1$ del
+plano con $d = 1.16\AA$ y del mismo orden de difracción $d = 1.2340\AA$. En el chico, vemos
+que los anillos encerrados son $d = 2.0390\AA$ y $d = 2.1386$ del orden de difracción $1$.  
 
 Postulamos, entonces, que no sólo una distancia interplanar contribuye al 
 patrón de interferencia que observamos con los anillos, sino que son múltiples.
@@ -137,45 +245,14 @@ en cada anillo es debdio a una sub-estimación del error. Esto cobra especial
 importancia en el caso del anillo chico, donde se ve que la diferencia es
 mínima.
 
-Utilizando los postulados de De Broglie y la hipótesis no relativista 
-(que en el apéndice se ve que tiene un error menor al $1\%$ en este orden
-de energías) podemos calcular las longitudes de onda de las funciones de onda
-asociadas a los electrones, con la siguiente relación:
-$$\lambda = \frac{h}{\sqrt{2m_e T}}$$
-donde $h$ es la constante de Planck, $m_e$ la masa del electrón y $T$ la tensión
-con la cual se acelera a los electrones.
-Los resultados obtenidos se pueden ver en la tabla siguiente.
-
-| $T[keV]$ | $\Delta T [keV]$ |  $\lambda [\AA]$ |  $\Delta \lambda [\AA]$ |
-|---------|------------|-------|-------
-| 4.07    |  0.04      |  0.1922     |       
-| 4.99    |  0.04      |  0.1736     |       
-| 6.05    |  0.06      |  0.1576     |       
-| 6.99    |  0.06      |  0.1467     |       
-| 8.04    |  0.06      |  0.1367     |      
-
-Para calcular $\Delta \lambda$ utilizamos propagación lineal de variables.
-Usamos la siguiente expresión:
-
-$$\Delta \lambda(T, \Delta T) =
-\left |
-	\frac{\partial}{\partial T} \left (
-		\frac{h}{\sqrt{2m_e T}}
-	\right )(T) \times \Delta T
-\right | = \frac{h}{\sqrt{2m_e}\ T^{3/2}} \Delta T$$
 
 ## Conclusiones
 
-En el presente experimento se trabajó los postulados de De Broglie y se
-replicaron los resultados del experimento de Davisson-Germer (con un esquema
-experimental distinto). Se observó el comportamiento ondular de los electrones
-y, bajo los postulados de De Broglie, se calculó la longitud de onda de la 
-función de onda asociada.
+Los resultados obtenidos satisfacen la hipótesis de que la materia corpuscular también presenta cualidades ondulatorias. Las longitudes de onda para los electrones coinciden con lo calculado teóricamente en función de las tensiones medidas. El máximo error relativo fue del 7.8%, un número bajo que inspira confianza sobre los resultados que prueban el modelo de De Broglie.
+Los diámetros hallados experimentalmente, se ajustan a los diámetros calculados analiticamente expresados en el gráfico como [1.2340E-10 m, n=1] y [2.1386E-10 m, n=1] los cuales corresponden a las  las distancias interplanares 1,2340 Å y 2,1386 Å respectivamente, tal como se había hallado previamente en las tablas 5 y 6.
+A su vez, por medio del gráfico pudimos observar que los diámetros de anillos correspondientes a la distancia interplanar [2.1386E-10 m, n=1] y [2.0390E-10 m, n=1] quedan dentro del área dada entre los diámetros d1int y d1ext. Y lo mismo es observado para [1.2340E-10 m, n=1] y [1.1603E-10 m, n=1], los cuales quedan entre los diametros d2int y d2ext. La razón de que ocurra éste fenómeno podría ser que mas de una distancia interplanar esté contribuyendo a la formación de los anillos (en este caso son 2 distancias interplanares distintas para cada anillo, d1 y d2).  
 
-En base al comportamiento de difracción de la materia se determinaron
-propiedades del material de grafito utilizado.
-
-## Apéndice - cuestionario
+## Apéndice A - cuestionario
 
 ### Experimento de Davison-Germer y la Ley de Bragg
 
@@ -306,3 +383,29 @@ bulbo).
 
    ![Diámetro de los anillos para distintos $d$ en respuesta a distinta tensión, n = 1](nivel_1.png)
    ![Diámetro de los anillos para distintos $d$ en respuesta a distinta tensión, n = 2](nivel_2.png)
+
+
+## Apéndice B 
+
+
+Utilizando los postulados de De Broglie y la hipótesis no relativista 
+(que en el apéndice se ve que tiene un error menor al $1\%$ en este orden
+de energías) podemos calcular las longitudes de onda de las funciones de onda
+asociadas a los electrones, con la siguiente relación:
+$$\lambda = \frac{h}{\sqrt{2m_e E_c}}$$
+donde $h$ es la constante de Planck, $m_e$ la masa del electrón y $E_c$ la energia
+cinetica del electron a causa de la tensión con la cual se acelera a los electrones.
+
+
+Para calcular $\Delta \lambda$ utilizamos propagación lineal de variables.
+Dado que las energias de los electrones estan en el orden de los KeV, lo cual es mucho menor a $m_o c^2$, podemos usar la siguiente expresión para el calculo de la incerteza:
+
+$$\Delta \lambda(T, \Delta T) =
+\left |
+	\frac{\partial}{\partial T} \left (
+		\frac{h}{\sqrt{2m_e T}}
+	\right )(T) \times \Delta T
+\right | = \frac{h}{\sqrt{2m_e}\ T^{3/2}} \Delta T$$
+
+
+
