@@ -493,8 +493,25 @@ cuestionario. Para facilitar el análisis de los datos, graficamos los
 anillos calculados y los medidos en función de las distintas tensiones
 aplicadas.
 
-El primer anillo (empezando desde el centro) corresponde a la distancia
-interplanar del cristal con distancia de \(2,1386 \AA\).
+\begin{figure}[H]
+\centering
+\includegraphics{resultados_experimentales.png}
+\caption{Resultados experimentales.}
+\end{figure}
+
+En la figura 4 superponemos los resultados experimentales y los valores
+de los diámetros en función de la tensión para algunas distancias
+interplanares conocidas.\\
+A partir del gráfico de los resultados podemos ver que los anillos
+medidos (que, a diferencia de las líneas que representan los anillos
+teóricos calculados antes, \emph{sí} tienen espesor) encierran en su
+parte brillante a más de una curva de distancia interplanar.
+
+Las mediciones realizadas para el primer anillo (el mas chico) tienen una mayor 
+correspondencia con los diametros esperados para las distancias 
+interplanares del cristal \(2,1386 \AA\) y \(2,0390 \AA\) (ambos con
+orden de difracción $n=1$), ambas quedan encerradas dentro del rango de 
+valores posibles de la medición (debido a la incerteza propia del instrumento).
 
 \begin{longtable}[]{@{}lll@{}}
 \toprule
@@ -517,7 +534,51 @@ interplanar del cristal con distancia de \(2,1386 \AA\).
 con diámetro para n=1 y distancia interplanar 2,1386 Å}\tabularnewline
 \end{longtable}
 
-El segundo anillo corresponde a la distancia \(1,2340 \AA\).
+
+\begin{longtable}[]{@{}lll@{}}
+\toprule
+\(Diametro[mm]\) & \(d=2.0390 \AA, n=1\) & \(\varepsilon\)
+\%\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+\(Diametro[mm]\) & \(d=2.0390 \AA, n=1\) & \(\varepsilon\)
+\%\tabularnewline
+\midrule
+\endhead
+21.1 \(\pm\) 0.1 & 21.4 & 1.4\tabularnewline
+18.8 \(\pm\) 0.1 & 19.6 & 5.3\tabularnewline
+17.5 \(\pm\) 0.1 & 18.1 & 3.3\tabularnewline
+17.1 \(\pm\) 0.1 & 17.0 & 0.6\tabularnewline
+16.4 \(\pm\) 0.1 & 16.0 & 2.4\tabularnewline
+\bottomrule
+\caption{comparación de diámetros internos obtenidos experimentalmente
+con diámetro para n=1 y distancia interplanar 2,1386 Å}\tabularnewline
+\end{longtable}
+
+De igual manera, el segundo anillo (el mas grande) tiene una mayor concordancia con
+las distancias \(1,1603 \AA\) y \(1,2340 \AA\).
+
+\begin{longtable}[]{@{}lll@{}}
+\toprule
+\(Diametro[mm]\) & \(d=1.1603 \AA, n=1\) & \(\varepsilon\)
+\%\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+\(Diametro[mm]\) & \(d=1.1603 \AA, n=1\) & \(\varepsilon\)
+\%\tabularnewline
+\midrule
+\endhead
+37.1 \(\pm\) 0.1 & 41.6 & 10.8\tabularnewline
+34.0 \(\pm\) 0.1 & 37.3 & 8.8\tabularnewline
+31.9 \(\pm\) 0.1 & 34.1 & 6.4\tabularnewline
+29.1 \(\pm\) 0.1 & 29.6 & 1.7\tabularnewline
+28.7 \(\pm\) 0.1 & 28.0 & 2.5\tabularnewline
+\bottomrule
+\caption{comparación de diámetros externos obtenidos experimentalmente
+con diámetro para n=1 y distancia interplanar 1.1603 \AA}\tabularnewline
+\end{longtable}
 
 \begin{longtable}[]{@{}lll@{}}
 \toprule
@@ -540,25 +601,6 @@ El segundo anillo corresponde a la distancia \(1,2340 \AA\).
 con diámetro para n=1 y distancia interplanar 1,2340 \AA}\tabularnewline
 \end{longtable}
 
-\begin{figure}[H]
-\centering
-\includegraphics{resultados_experimentales.png}
-\caption{Resultados experimentales.}
-\end{figure}
-
-En la figura 4 superponemos los resultados experimentales y los valores
-de los diámetros en función de la tensión para algunas distancias
-interplanares conocidas.\\
-A partir del gráfico de los resultados podemos ver que los anillos
-medidos (que, a diferencia de las líneas que representan los anillos
-teóricos calculados antes, \emph{sí} tienen espesor) encierran en su
-parte brillante a más de una curva de distancia interplanar.
-
-En el caso del anillo grande, vemos que se encierra al anillo de orden
-de difracción \(1\) del plano con \(d = 1.16\AA\) y del mismo orden de
-difracción \(d = 1.2340\AA\). En el chico, vemos que los anillos
-encerrados son \(d = 2.0390\AA\) y \(d = 2.1386\) del orden de
-difracción \(1\).
 
 Postulamos, entonces, que no sólo una distancia interplanar contribuye
 al patrón de interferencia que observamos con los anillos, sino que son
@@ -581,6 +623,8 @@ interplanar en cada anillo es debdio a una sub-estimación del error.
 Esto cobra especial importancia en el caso del anillo chico, donde se ve
 que la diferencia es mínima.
 
+
+
 \hypertarget{conclusiones}{%
 \subsection{Conclusiones}\label{conclusiones}}
 
@@ -592,17 +636,15 @@ función de las tensiones medidas. El máximo error relativo fue del
 que puede ser atribuido a errores en las mediciones de los diametros de los
 anillos. Los diámetros hallados experimentalmente, se ajustan a los 
 diámetros calculados analiticamente expresados en el gráfico como 
-{[}1.2340E-10 m, n=1{]} y {[}2.1386E-10 m, n=1{]} los cuales corresponden 
-a las las distancias interplanares 1,2340 \AA y 2,1386 \AA respectivamente, 
-tal como se había hallado previamente en las tablas 5 y 6. 
-A su vez, por medio del gráfico pudimos observar que los diámetros de anillos correspondientes a la distancia interplanar {[}2.1386E-10 m, n=1{]} y 
-{[}2.0390E-10 m, n=1{]} quedan dentro del área dada entre los diámetros 
-d1int y d1ext. Y lo mismo es observado para {[}1.2340E-10 m, n=1{]} y 
-{[}1.1603E-10 m, n=1{]}, los cuales quedan entre los diametros 
-d2int y d2ext. La razón de que ocurra éste fenómeno podría ser que mas de 
+[$1.1603 \times 10^{-10} m, n=1$] y [$2.1386 \times 10^{-10} m, n=1$] los cuales corresponden a las las distancias interplanares $1,2340 \AA$ y $2,1386 \AA$ respectivamente, tal como se había hallado previamente en las tablas 5 y 6. 
+A su vez, por medio del gráfico pudimos observar que los diámetros de anillos 
+correspondientes a la distancia interplanar $[2.1386 \times 10^{-10} m, n=1$] y 
+$[2.0390 \times10^{-10} m, n=1$] quedan dentro del área dada entre los diámetros 
+$diam1_{int}$ y $diam1_{ext}$. Y lo mismo es observado para [$1.2340 \times10^{-10} m, n=1$] y [$1.1603 \times10^{-10} m, n=1$], los cuales quedan entre los diametros 
+$d2_{int}$ y $diam2_{ext}$. La razón de que ocurra éste fenómeno podría ser que mas de 
 una distancia interplanar esté contribuyendo a la formación de los 
 anillos (en este caso son 2 distancias interplanares distintas para cada 
-anillo, d1 y d2).
+anillo, $diam1$ y $diam2$).
 
 \newpage
 
@@ -781,6 +823,8 @@ Usando la notación del gráfico, observamos que:
 Y esto nos da un método sin aproximaciones para calcular el ángulo de
 Bragg, ya que \(r\) es lo que medimos (el radio del anillo) y \(R\) es
 conocido (el radio del bulbo).
+
+\includegraphics{resultados_cuestionario.png}
 
 \hypertarget{tablas-de-theta-para-distintos-n-v-d}{%
 \subsubsection{\texorpdfstring{Tablas de \(\theta\) para distintos
